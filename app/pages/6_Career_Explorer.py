@@ -1,6 +1,7 @@
 # pages/7_Roadmap_Quiz.py
 import os
 import streamlit as st
+from utils.paths import DB_PATH
 
 # -------------------------------
 # Quiz (your original logic)
