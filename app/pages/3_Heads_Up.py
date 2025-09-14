@@ -3,6 +3,7 @@ import json, random
 import streamlit as st
 
 from utils import state, wallet, a11y, i18n, layout
+from utils.paths import DB_PATH
 
 DB_PATH = "db/stemverse.sqlite"
 st.set_page_config(page_title="Heads Up", layout="wide")
