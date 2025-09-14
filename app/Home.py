@@ -26,7 +26,7 @@ db.ensure_user(DB_PATH, uid)
 if "profile_set" not in st.session_state:
     st.session_state["profile_set"] = False
 
-st.title("🧪 " + i18n.t("home.title", "STEMverse Together"))
+st.title("🧪 " + i18n.t("home.title", "STEMverse"))
 st.write(i18n.t("home.subtitle", "Co-op STEM mini-games with accessibility built-in."))
 
 with st.form("profile"):
