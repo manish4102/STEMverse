@@ -3,6 +3,7 @@
 
 import streamlit as st
 from utils import wallet, state, i18n, layout, a11y
+from utils.paths import DB_PATH
 
 DB_PATH = "db/stemverse.sqlite"
 AWARD_COINS = 100  # reward per case
