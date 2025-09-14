@@ -2,6 +2,7 @@
 import time, secrets, urllib.parse
 import streamlit as st
 from utils import buddy, state
+from utils.paths import DB_PATH
 
 DB = "db/stemverse.sqlite"
 st.title("👥 Buddy Program")
