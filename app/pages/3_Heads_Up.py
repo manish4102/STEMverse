@@ -3,7 +3,7 @@ import json, random
 import streamlit as st
 
 from utils import state, wallet, a11y, i18n, layout
-from utils.paths import DB_PATH
+from utils.paths import DB_PATH, data_path
 
 DB_PATH = "db/stemverse.sqlite"
 st.set_page_config(page_title="Heads Up", layout="wide")
@@ -99,3 +99,10 @@ if st.session_state[round_key]["pool"]:
         st.session_state[round_key]["pool"].append(st.session_state[round_key]["pool"].pop(0))
 else:
     st.success(i18n.t("heads.complete", "Round complete!"))
+
+try:
+    with open(data_path("terms.json"), "r", encoding="utf-8") as f:
+        terms = json.load(f)
+except FileNotFoundError:
+    # Minimal fallback so the page still runs if the file is missing
+    terms = {"easy": ["force", "mass", "energy"], "medium": ["torque", "resistor"], "hard": ["entropy", "superposition"]}
