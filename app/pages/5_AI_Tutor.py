@@ -3,6 +3,7 @@
 import os
 import streamlit as st
 from utils import tutor, a11y  # keeps your keyword fallback + TTS
+from utils.paths import DB_PATH
 
 MODEL_NAME = "gemini-1.5-flash"
 
