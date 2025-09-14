@@ -4,24 +4,19 @@ from functools import lru_cache
 
 @lru_cache()
 def db_path() -> str:
-    # Allow override via env, else prefer repo ./db/stemverse.sqlite
+    # Allow override; useful for Cloud if you ever want to pin a path.
     candidate = os.getenv("STEMVERSE_DB", os.path.join("db", "stemverse.sqlite"))
-    dirn = os.path.dirname(candidate)
+    dirn = os.path.dirname(candidate) or "."
 
-    # If the directory exists AND is writable, use it
-    if dirn and os.path.isdir(dirn) and os.access(dirn, os.W_OK):
-        return candidate
-
-    # Try to create it if possible
+    # If the directory is writable, use it
     try:
-        if dirn:
-            os.makedirs(dirn, exist_ok=True)
-            if os.access(dirn, os.W_OK):
-                return candidate
+        os.makedirs(dirn, exist_ok=True)
+        if os.access(dirn, os.W_OK):
+            return candidate
     except Exception:
         pass
 
-    # Fallback to a guaranteed writable temp location on Streamlit Cloud
+    # Fallback to /tmp (always writable on Streamlit Cloud)
     return os.path.join(tempfile.gettempdir(), "stemverse.sqlite")
 
 DB_PATH = db_path()
