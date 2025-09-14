@@ -7,6 +7,7 @@ from PIL import Image
 from utils import a11y, video, i18n
 from utils import ar as arutil
 from utils import state, layout  # <-- layout for shared sidebar
+from utils.paths import DB_PATH
 
 DB_PATH = "db/stemverse.sqlite"
 st.set_page_config(page_title="AR Scanner", layout="wide")
