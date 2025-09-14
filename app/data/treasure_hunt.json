@@ -1,0 +1,71 @@
+{
+  "levels": [
+    {
+      "id": "L1",
+      "title": "Level 1 \u2013 Physics Riddle",
+      "clues": [
+        {
+          "type": "riddle",
+          "text": "I push without touching. What am I?",
+          "answer": "magnet",
+          "coop_role": "planner"
+        },
+        {
+          "type": "binary",
+          "text": "Decode 01100001 01101001",
+          "answer": "ai",
+          "coop_role": "operator"
+        }
+      ],
+      "hints": [
+        "Think forces at a distance.",
+        "Binary to text (ASCII)."
+      ]
+    },
+    {
+      "id": "L2",
+      "title": "Level 2 \u2013 Chemistry Scramble",
+      "clues": [
+        {
+          "type": "scramble",
+          "text": "Scramble: TCAAYLTS (hint: speeds reactions)",
+          "answer": "catalyst",
+          "coop_role": "planner"
+        },
+        {
+          "type": "math",
+          "text": "Solve: 3*(4+2)-5",
+          "answer": "13",
+          "coop_role": "operator"
+        }
+      ],
+      "hints": [
+        "Unmix the letters.",
+        "Order of operations (PEMDAS)."
+      ]
+    },
+    {
+      "id": "L3",
+      "title": "Level 3 \u2013 CS + Math",
+      "clues": [
+        {
+          "type": "riddle",
+          "text": "I learn from data, not rules. What am I?",
+          "answer": "machine learning",
+          "coop_role": "planner"
+        },
+        {
+          "type": "scramble",
+          "text": "Scramble: GAE RTOI (hint: bikes)",
+          "answer": "gear ratio",
+          "coop_role": "operator"
+        }
+      ],
+      "hints": [
+        "Common in AI.",
+        "Bikes change torque vs speed."
+      ]
+    }
+  ],
+  "award_per_level": 100
+}

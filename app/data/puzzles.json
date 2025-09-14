@@ -1,0 +1,8 @@
+{
+  "escape_room": {
+    "led_target": "1010",
+    "hint_video": "data/videos/series_parallel.mp4",
+    "hint_captions": "data/captions/series_parallel.vtt",
+    "award_first_solve": 50
+  }
+}

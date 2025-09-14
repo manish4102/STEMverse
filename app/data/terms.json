@@ -1,0 +1,38 @@
+{
+  "easy": [
+    "Atom",
+    "Force",
+    "Energy",
+    "Mass",
+    "Circuit",
+    "Gravity",
+    "Robot",
+    "Magnet",
+    "Angle",
+    "Cell"
+  ],
+  "medium": [
+    "Momentum",
+    "Voltage",
+    "Catalyst",
+    "Orbit",
+    "Algorithm",
+    "Torque",
+    "Oxidation",
+    "Refraction",
+    "Isotope",
+    "Entropy"
+  ],
+  "hard": [
+    "Fourier",
+    "Eigenvector",
+    "Microfluidics",
+    "Titration",
+    "Inertia Tensor",
+    "Cryptography",
+    "Transducer",
+    "Polymorphism",
+    "Thermodynamics",
+    "Superposition"
+  ]
+}

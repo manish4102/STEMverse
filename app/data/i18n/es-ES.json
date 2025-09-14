@@ -1,0 +1,88 @@
+{
+  "home": {
+    "title": "STEMverse Juntos",
+    "subtitle": "Minijuegos STEM en cooperativo con accesibilidad integrada.",
+    "quick_start": "Inicio rápido",
+    "demo_checklist": "Guía: Crea un perfil → Ajusta accesibilidad → Prueba el escáner AR → Gana monedas → Juega Heads Up → Completa el tesoro → Explora carreras."
+  },
+  "sidebar": {
+    "accessibility": "Centro de Accesibilidad",
+    "tts": "Lector (Leer en voz alta)",
+    "high_contrast": "Alto contraste",
+    "large_text": "Texto grande",
+    "reduced_motion": "Movimiento reducido",
+    "captions": "Subtítulos",
+    "transcript": "Panel de transcripción",
+    "language": "Idioma",
+    "wallet": "Monedero",
+    "coins": "Monedas"
+  },
+  "profile": {
+    "nickname": "Apodo",
+    "grade": "Curso",
+    "save": "Guardar perfil",
+    "saved": "¡Perfil guardado!"
+  },
+  "nav": {
+    "ar": "Escáner AR",
+    "heads_up": "Heads Up",
+    "treasure": "Búsqueda del Tesoro 3D",
+    "tutor": "Tutor IA",
+    "careers": "Explorador de Carreras",
+    "buddy": "Programa de Compañeros",
+    "admin": "Contenido Admin"
+  },
+  "buddy": {
+    "title": "Programa de Compañeros",
+    "enter_code": "Introduce / Crea código de sala",
+    "create_join": "Crear/Unirse",
+    "generate": "Generar código",
+    "room": "Sala",
+    "invite_link": "Enlace de invitación",
+    "members": "Miembros",
+    "mentor_ping": "Llamar mentor",
+    "chat_placeholder": "Escribe y pulsa Enter…",
+    "chat": "Chat",
+    "coop": "Lanzadores co-op"
+  },
+  "ar": {
+    "title": "Escáner AR con IA",
+    "hint": "Sube una imagen (circuito, planta, captura de código, bicicleta). La IA la analiza y explica lo que ve. Si la IA no está disponible, usamos el detector sin conexión.",
+    "upload": "Subir imagen",
+    "capture": "O capturar con la cámara",
+    "no_text": "Sin respuesta textual.",
+    "no_concept": "Aún no hay contenido mapeado para este concepto.",
+    "explainer": "Vídeo explicativo",
+    "tts_intro": "Aquí tienes ideas clave relacionadas con el concepto detectado.",
+    "concept_error": "Contenido no disponible (revisa data/concepts.json).",
+    "input": "Entrada",
+    "ai_analysis": "Análisis con IA",
+    "domain": "Dominio",
+    "tags": "Etiquetas",
+    "summary": "Resumen",
+    "explanation": "Explicación",
+    "language": "Lenguaje",
+    "fallback": "Análisis con IA no disponible; usando detector sin conexión.",
+    "detected_qr": "Código QR detectado.",
+    "detected_template": "Plantilla detectada.",
+    "detected_heur": "Coincidencia heurística",
+    "no_match": "Sin detección.",
+    "no_match2": "Sin coincidencia de QR/marcador/heurística.",
+    "score": "Puntuación de detección",
+    "tip": "Consejo: prueba un diagrama de circuito, foto de una planta, captura de código o el marcador de bicicleta."
+  },
+  "heads": {
+    "title": "Heads Up",
+    "solo": "Individual",
+    "buddy": "Compañero",
+    "mode": "Modo",
+    "difficulty": "Dificultad",
+    "start": "Iniciar / Reiniciar",
+    "score": "Puntos",
+    "correct": "Correcto",
+    "skip": "Saltar",
+    "complete": "¡Ronda completada!",
+    "buddy_tip": "Modo compañero: crea o únete a una sala en la página Programa de Compañeros y vuelve aquí.",
+    "buddy_tip_with_room": "Modo compañero: estás en la sala **{room}**. Usen esta página juntos."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "bicycle": {
+    "title": "How Bicycles Work",
+    "key_ideas": [
+      "Balance: gyroscopic effects + rider steering keep the bike upright.",
+      "Gears: sprockets change torque vs. speed via gear ratios.",
+      "Brakes: friction converts kinetic energy into heat to slow down."
+    ],
+    "video": "data/videos/bicycle_explainer_30s.mp4",
+    "captions": "data/captions/bicycle_explainer.vtt"
+  }
+}

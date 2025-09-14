@@ -1,0 +1,88 @@
+{
+  "home": {
+    "title": "STEMverse Ensemble",
+    "subtitle": "Mini-jeux STEM en coopération avec accessibilité intégrée.",
+    "quick_start": "Démarrage rapide",
+    "demo_checklist": "Parcours : Créer un profil → Régler l’accessibilité → Essayer le scanner AR → Gagner des pièces → Jouer à Heads Up → Finir la chasse au trésor → Explorer les métiers."
+  },
+  "sidebar": {
+    "accessibility": "Centre d’Accessibilité",
+    "tts": "Lecteur vocal",
+    "high_contrast": "Haut contraste",
+    "large_text": "Texte large",
+    "reduced_motion": "Mouvements réduits",
+    "captions": "Sous-titres",
+    "transcript": "Panneau de transcription",
+    "language": "Langue",
+    "wallet": "Portefeuille",
+    "coins": "Pièces"
+  },
+  "profile": {
+    "nickname": "Surnom",
+    "grade": "Niveau",
+    "save": "Enregistrer le profil",
+    "saved": "Profil enregistré !"
+  },
+  "nav": {
+    "ar": "Scanner AR",
+    "heads_up": "Heads Up",
+    "treasure": "Chasse au trésor 3D",
+    "tutor": "Tuteur IA",
+    "careers": "Explorateur de métiers",
+    "buddy": "Programme binôme",
+    "admin": "Contenu Admin"
+  },
+  "buddy": {
+    "title": "Programme binôme",
+    "enter_code": "Entrer / Créer un code de salle",
+    "create_join": "Créer/Rejoindre",
+    "generate": "Générer un code",
+    "room": "Salle",
+    "invite_link": "Lien d’invitation",
+    "members": "Membres",
+    "mentor_ping": "Appel mentor",
+    "chat_placeholder": "Écrivez et appuyez sur Entrée…",
+    "chat": "Chat",
+    "coop": "Lanceurs co-op"
+  },
+  "ar": {
+    "title": "Scanner AR avec IA",
+    "hint": "Importez une image (circuit, plante, capture de code, vélo). L’IA l’analyse et explique ce qu’elle voit. Si l’IA est indisponible, on utilise le détecteur hors ligne.",
+    "upload": "Téléverser une image",
+    "capture": "Ou prendre une photo",
+    "no_text": "Aucune réponse textuelle.",
+    "no_concept": "Pas encore de contenu associé à ce concept.",
+    "explainer": "Vidéo explicative",
+    "tts_intro": "Voici des idées clés liées au concept détecté.",
+    "concept_error": "Contenu indisponible (vérifiez data/concepts.json).",
+    "input": "Entrée",
+    "ai_analysis": "Analyse IA",
+    "domain": "Domaine",
+    "tags": "Étiquettes",
+    "summary": "Résumé",
+    "explanation": "Explication",
+    "language": "Langue",
+    "fallback": "Analyse IA indisponible ; utilisation du détecteur hors ligne.",
+    "detected_qr": "Code QR détecté.",
+    "detected_template": "Gabarit détecté.",
+    "detected_heur": "Correspondance heuristique",
+    "no_match": "Aucune détection.",
+    "no_match2": "Aucune correspondance QR/marqueur/heuristique.",
+    "score": "Score de détection",
+    "tip": "Astuce : essayez un schéma de circuit, une photo de plante, une capture de code ou le marqueur vélo."
+  },
+  "heads": {
+    "title": "Heads Up",
+    "solo": "Solo",
+    "buddy": "Binôme",
+    "mode": "Mode",
+    "difficulty": "Difficulté",
+    "start": "Démarrer / Recommencer",
+    "score": "Score",
+    "correct": "Correct",
+    "skip": "Passer",
+    "complete": "Manche terminée !",
+    "buddy_tip": "Mode binôme : créez ou rejoignez une salle sur la page Programme binôme, puis revenez ici.",
+    "buddy_tip_with_room": "Mode binôme : vous êtes dans la salle **{room}**. Utilisez cette page ensemble."
+  }
+}

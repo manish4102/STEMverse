@@ -1,0 +1,24 @@
+[
+  {
+    "id": "astronaut",
+    "name": "Astronaut",
+    "fun_facts": [
+      "Astronauts train for years in survival, robotics, and space systems.",
+      "On spacewalks, suits regulate pressure, oxygen, and temperature.",
+      "The ISS orbits Earth ~16 times per day."
+    ],
+    "video": "https://www.youtube.com/watch?v=Gd0S2rL5G8A",
+    "captions": "data/captions/series_parallel.vtt"
+  },
+  {
+    "id": "engineer",
+    "name": "Engineer",
+    "fun_facts": [
+      "Engineers turn ideas into real systems that solve problems.",
+      "Fields range from mechanical to software to biomedical.",
+      "Design-build-test is a common loop."
+    ],
+    "video": "https://www.youtube.com/watch?v=Q2kJtA9JjZk",
+    "captions": "data/captions/series_parallel.vtt"
+  }
+]

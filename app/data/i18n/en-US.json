@@ -1,0 +1,88 @@
+{
+  "home": {
+    "title": "STEMverse Together",
+    "subtitle": "Co-op STEM mini-games with accessibility built-in.",
+    "quick_start": "Quick Start",
+    "demo_checklist": "Demo checklist: Create a profile → Toggle accessibility → Try AR Scanner → Earn coins → Play Heads Up → Clear Treasure Hunt levels → Explore careers."
+  },
+  "sidebar": {
+    "accessibility": "Accessibility Center",
+    "tts": "Screen Reader (Read Aloud)",
+    "high_contrast": "High Contrast",
+    "large_text": "Large Text",
+    "reduced_motion": "Reduced Motion",
+    "captions": "Captions",
+    "transcript": "Transcript panel",
+    "language": "Language",
+    "wallet": "Wallet",
+    "coins": "Coins"
+  },
+  "profile": {
+    "nickname": "Nickname",
+    "grade": "Grade",
+    "save": "Save Profile",
+    "saved": "Profile saved!"
+  },
+  "nav": {
+    "ar": "AR Scanner",
+    "heads_up": "Heads Up",
+    "treasure": "Treasure Hunt 3D",
+    "tutor": "AI Tutor",
+    "careers": "Career Explorer",
+    "buddy": "Buddy Program",
+    "admin": "Admin Content"
+  },
+  "buddy": {
+    "title": "Buddy Program",
+    "enter_code": "Enter / Create room code",
+    "create_join": "Create/Join Room",
+    "generate": "Generate code",
+    "room": "Room",
+    "invite_link": "Invite link",
+    "members": "Members",
+    "mentor_ping": "Mentor Ping",
+    "chat_placeholder": "Type and press Enter…",
+    "chat": "Chat",
+    "coop": "Co-op Launchers"
+  },
+  "ar": {
+    "title": "AI AR Scanner",
+    "hint": "Upload an image (circuit, plant, code screenshot, bicycle). AI analyzes it and explains what it sees. If AI is unavailable, we fall back to the offline detector.",
+    "upload": "Upload image",
+    "capture": "Or capture from camera",
+    "no_text": "No textual response.",
+    "no_concept": "No mapped concept content yet.",
+    "explainer": "Explainer Video",
+    "tts_intro": "Here are key ideas related to the detected concept.",
+    "concept_error": "Concept content not available (check data/concepts.json).",
+    "input": "Input",
+    "ai_analysis": "AI Analysis",
+    "domain": "Domain",
+    "tags": "Tags",
+    "summary": "Summary",
+    "explanation": "Explanation",
+    "language": "Language",
+    "fallback": "AI analysis unavailable; using offline detector.",
+    "detected_qr": "QR code detected.",
+    "detected_template": "Template detected.",
+    "detected_heur": "Heuristic match",
+    "no_match": "No detection.",
+    "no_match2": "No QR/marker/heuristic match.",
+    "score": "Detection score",
+    "tip": "Tip: try a circuit diagram, plant photo, code screenshot, or the bicycle marker."
+  },
+  "heads": {
+    "title": "Heads Up",
+    "solo": "Solo",
+    "buddy": "Buddy",
+    "mode": "Mode",
+    "difficulty": "Difficulty",
+    "start": "Start / Restart",
+    "score": "Score",
+    "correct": "Correct",
+    "skip": "Skip",
+    "complete": "Round complete!",
+    "buddy_tip": "Buddy mode: join or create a room on the Buddy Program page, then return here.",
+    "buddy_tip_with_room": "Buddy mode: you’re in room **{room}**. Use the same page together."
+  }
+}
