@@ -1,5 +1,6 @@
 import os, json
 import streamlit as st
+from utils.paths import DB_PATH
 
 from utils import a11y, state, db, wallet, i18n
 from utils import layout  # <-- new import
