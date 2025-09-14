@@ -49,7 +49,7 @@ def _extract_json(s: str):
 
 # --- AI vision call (Gemini 1.5 Flash), backend env only ---
 def ai_describe_image(pil_img: Image.Image, out_lang: str):
-    key = os.getenv("GEMINI_API_KEY", "")
+    key = os.getenv("GEMINI_API_KEY", "AIzaSyAyPgJs77nhdr8HxRp1IzQIcPXt2hLxyVM")
     if not key:
         raise RuntimeError("Gemini not configured")
     try:
