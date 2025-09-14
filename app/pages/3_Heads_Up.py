@@ -17,7 +17,7 @@ with st.sidebar:
     settings = layout.render_sidebar(DB_PATH, uid)  # returns lang_code, tts, etc.
 
 # ---- Load terms ----
-terms = json.load(open("data/terms.json", "r", encoding="utf-8"))
+#terms = json.load(open("data/terms.json", "r", encoding="utf-8"))
 
 st.title("🧠 " + i18n.t("heads.title", "Heads Up"))
 
